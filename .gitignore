@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+models/*.pth
+models/*.pt
+models/*.ckpt
+!models/README.md
+.DS_Store
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Include the deployed DenseNet121 checkpoint
+!models/densenet121_best.pth

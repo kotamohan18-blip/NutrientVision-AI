@@ -1,0 +1,4 @@
+# Install this file separately using the official PyTorch CPU wheel index:
+# python -m pip install --index-url https://download.pytorch.org/whl/cpu -r requirements-torch-cpu.txt
+torch==2.10.0
+torchvision==0.25.0
